@@ -7,10 +7,12 @@
  
 
 .collapse{
-  margin-right: 2rem;
+  
 }
 
-
+.navbar{
+  flex-wrap: nowrap;
+}
 
 .encabezado {
   padding-top: 18Rem;
