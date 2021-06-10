@@ -53,7 +53,7 @@
   padding-bottom: 15rem;
   height: 55rem;
   text-align: center;
-  color: #fff;
+  color: rgba(14, 0, 0, 0.283);
   background-image: url("../img/header-bg.JPG");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -67,7 +67,7 @@
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.50em;
 }
 
 .btn-primary{
@@ -94,17 +94,24 @@
   padding: 1em;
   text-align: center;
   vertical-align: middle;
+  
 }
 
-h1 {
+
+.sombra{
+  background: rgba(0, 0, 0, 0.413);
+}
+
+.slogan {
   transition: 250ms;
   padding: 0;
   color: #fff;
-  font-size: 1.15em;
-  line-height: 2.25rem;
+  font-size: 1.8em;
+  line-height: 2.5rem;
   margin-bottom: 25px;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Josefin Sans', sans-serif !important;
 }
+
 
 h2{
   transition: 250ms;
@@ -113,7 +120,7 @@ h2{
   font-size: 1.15em;
   line-height: 2.25rem;
   margin-bottom: 25px;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Poppins', sans-serif !important;
 }
 
 @media (min-width: 450px) {
@@ -121,7 +128,7 @@ h2{
     font-size: 1.5em;
   }
   h2 {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 }
 @media (min-width: 760px) {
@@ -129,7 +136,7 @@ h2{
     font-size: 2em;
   }
   h2 {
-    font-size: 2.5em;
+    font-size: 3em;
   }
 }
 @media (min-width: 900px) {
