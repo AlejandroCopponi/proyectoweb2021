@@ -4,7 +4,6 @@
   height: 15%;
  }
 
-
 .navbar-toggler{
   display: flex;
   align-self: flex-start;
@@ -19,7 +18,9 @@
   display: flex;
   align-self: baseline;
   flex-basis: 0rem;
+ 
 }
+
 .navbar{
   display: flex;
   flex-flow: row;
@@ -31,7 +32,7 @@
 /*menu transparente*/
 
 #navbar {
-  background-color: rgba(0, 0, 0, 0.123);
+  background-color: rgba(0, 0, 0, 0.345);
   top: 0px;
   transition: 0.3s;
 }
@@ -123,6 +124,17 @@ h2{
   font-family: 'Poppins', sans-serif !important;
 }
 
+@media (min-width: 300px) {
+  h1 {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  .encabezado{
+    padding-top: 17rem;
+  }
+
 @media (min-width: 450px) {
   h1 {
     font-size: 1.5em;
@@ -190,7 +202,7 @@ h2{
 }
 
 .btn:hover{
-  background: #18191A;
+  background: #18191a70;
 }
 
 .card-read-more a {
