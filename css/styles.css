@@ -176,13 +176,9 @@ h2{
 
 
 .img-card {
-  height: auto;
-  max-width: 100%;
-  vertical-align: middle;
   border-top-left-radius: 0.025rem;
   border-top-right-radius: 0.25rem;
   overflow: hidden;
-  vertical-align: middle;
   transition: 0.25s;
 }
 
@@ -231,7 +227,6 @@ h2{
 .parrafo{
   text-align: center;
   color:#ffffff
-  
 }
 
 button{
