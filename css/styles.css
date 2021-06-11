@@ -183,10 +183,14 @@ h2{
   border-top-right-radius: 0.25rem;
   overflow: hidden;
   vertical-align: middle;
+  transition: 0.25s;
+}
+
+.img-card:hover{
+  transform:scale(1.03,1.03);
 }
 
 .card:hover{
-  transform:scale(1.03,1.03);
   background: #3f8edd34;
 }
 
@@ -211,7 +215,7 @@ h2{
 
 
 .btn:hover{
-  background: #18191A;
+  background:transparent;
 }
 
 .card-read-more a {
@@ -220,10 +224,14 @@ h2{
   text-transform: uppercase
 }
 
+.card-read-more a:hover {
+  color: rgba(215, 215, 215, 0.393);
+}
+
 .parrafo{
   text-align: center;
   color:#ffffff
-  font-family: 'Poppins', sans-serif;
+  
 }
 
 button{
