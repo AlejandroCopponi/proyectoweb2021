@@ -156,7 +156,7 @@ h2{
 }
 
 /* para igualar las columnas en altura*/
-.row{
+/*.row{
   display: flex;
   flex-wrap: wrap;
 }
@@ -232,6 +232,3 @@ h2{
 button{
   line-height: 0;
 }
-
-
-
