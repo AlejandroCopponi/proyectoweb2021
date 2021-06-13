@@ -4,7 +4,7 @@ window.onload = function() {
     anchor.onclick = function() {
         
         var url = "contacto.html";
-        window.open(url, "_blank", 'width=750rem,height=482rem'); 
+        window.open(url, "_blank", 'width=750rem,height=500rem'); 
         return false;
     };
 }
