@@ -105,18 +105,16 @@ h2{
   h1 {
     font-size: 1em;
   }
-  h2 {
-    font-size: 2em;
-
-  }
+}
 
 @media screen and (min-width: 450px) {
   h1 {
     font-size: 1em;
   }
   h2 {
-    font-size: 2.25em;
+    font-size: 2em;
   }
+  
 }
 @media screen and (min-width: 760px) {
   h1 {
@@ -128,18 +126,18 @@ h2{
 }
 @media screen and (min-width: 900px) {
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   h2 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 } 
 @media screen and (min-width: 1200px) {
   h1 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   h2 {
-    font-size: 3.5em;
+    font-size: 3em;
   }
 } 
 
@@ -153,6 +151,7 @@ h2{
   padding: 3em;
   text-align: center;
   vertical-align: middle;
+  padding-bottom: 9.2rem;
 }
 
 /* para igualar las columnas en altura*/
@@ -165,6 +164,11 @@ h2{
   display: flex;
 }
 /* fin para igualar las columnas en altura*/
+
+.heading{
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
 
 .card {
     overflow: hidden;
@@ -235,3 +239,21 @@ button{
 
 
 
+/* <<<<<<<<<<<<<<<<< estilos para form contactos >>>>>>>>>>>>>>>*/
+
+.form-label{
+  font-style: italic;
+}
+
+.form-outline{
+  background: white;
+}
+
+.wrapper-contact{
+  height: 100%;
+  width: 100%;
+  background: rgb(3, 0, 0);
+  padding: 3em;
+  text-align: center;
+  padding-bottom: 3rem;
+}
