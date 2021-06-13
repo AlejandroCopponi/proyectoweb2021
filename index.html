@@ -52,7 +52,7 @@
                     <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
                     <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Eventos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Presupuesto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#presupuesto">Presupuesto</a></li>
                     
                 </ul>
             </div>
@@ -146,39 +146,57 @@
 
     <!-- >>>>>>>>>>>>>>>> card services area end <<<<<<<<<<<<<<<< -->
 
-    <!-- >>>>>>>>>>>>>>>> galery area star <<<<<<<<<<<<<<<< -->
+    <!-- >>>>>>>>>>>>>>>> presupuesto area star <<<<<<<<<<<<<<<< -->
 
-    <section  id="galeria">
-       
+    <section  class="wrapper-contact" id="presupuesto">
+        <h2>Trabajaremos para ajustarnos a tus posibilidades</h2>
+        <div class="container">
+            <div class="row">
+                <div class="redes col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <h3>Podés contactarnos a través de nuestras redes, o completar el formulario</h3>
+                </div>
+                <div class="campos col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <form>
+                        <!-- Nombres input -->
+                        <div class="form-outline mb-4">
+                            <input type="text" id="form6Example1" class="form-control" />
+                            <label class="form-label" for="form6Example1">Nombres</label>
+                        </div>
+                        <!-- Apellidos input -->
+                        <div class="form-outline mb-4">
+                            <input type="text" id="form6Example2" class="form-control" />
+                            <label class="form-label" for="form6Example2">Apellido</label>
+                        </div>
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form6Example5" class="form-control" />
+                            <label class="form-label" for="form6Example5">Email</label>
+                        </div>
+                        <!-- Telefono input -->
+                        <div class="form-outline mb-4">
+                            <input type="number" id="form6Example6" class="form-control" />
+                            <label class="form-label" for="form6Example6">Teléfono</label>
+                        </div>
+                        <!-- Mensaje input -->
+                        <h3>Descibe tu evento, lugar, cantidad de personas, modalidad, y todos los detalles que puedas agregar para que podamos delinear mejor un presupuesto.</h3>
+                        <div class="form-outline mb-4">
+                            <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+                            <label class="form-label" for="form6Example7">Descripción</label>
+                        </div>
+                        <!-- Submit y Cerar  button -->
+                        <button type="submit" class="btn btn-primary  mb-4">Pedir presupuesto</button>             
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
     
 
 
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script><script>
-        
-    // When the user scrolls down 20px from the top of the document, slide down the navbar
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("navbar").style.background = "rgba(0, 0, 0, 0.750)";
-      } else {
-        document.getElementById("navbar").style.background = "rgba(0, 0, 0, 0.100)";
-      }
-    }
-    </script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-
-    //AOS.init();// inicialización básica
-    AOS.init({
-                easing: 'ease-out-back',
-                duration: 1500
-            });
-    </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
 
     <!-- link a mi js-->

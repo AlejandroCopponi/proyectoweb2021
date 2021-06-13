@@ -101,9 +101,19 @@ h2{
   font-family: 'Poppins', sans-serif !important;
 }
 
+h3{
+  color: #ffffff;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+
 @media screen and (min-width: 300px) {
   h1 {
     font-size: 1em;
+  }
+  .redes{
+    filter: none;
   }
 }
 
@@ -215,7 +225,7 @@ h2{
 
 
 .btn:hover{
-  background:transparent;
+  background:#18191A;
 }
 
 .card-read-more a {
@@ -225,7 +235,7 @@ h2{
 }
 
 .card-read-more a:hover {
-  color: rgba(215, 215, 215, 0.393);
+  color: rgba(255, 255, 255, 0.845);
 }
 
 .parrafo{
@@ -257,3 +267,25 @@ button{
   text-align: center;
   padding-bottom: 3rem;
 }
+
+
+.redes{
+    padding: 0.35rem;
+    width: 3rem;
+    filter:grayscale(1);
+    transition: 250ms;
+    flex-direction: row;
+    
+}
+
+.redes:hover{
+  filter: none;
+  width: 5rem;
+}
+
+.iconos{
+  display: flex;
+  justify-content:space-around;
+}
+
+
