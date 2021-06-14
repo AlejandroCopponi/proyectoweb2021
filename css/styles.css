@@ -247,16 +247,18 @@ button{
   line-height: 0;
 }
 
+/*<<<<<<<<<<  formulario presupuesto >>>>>>>>>>>*/
 
+
+
+.contenedor-campos{
+  width: 50%;
+}
 
 /* <<<<<<<<<<<<<<<<< estilos para form contactos >>>>>>>>>>>>>>>*/
 
 .form-label{
-  font-style: italic;
-}
-
-.form-outline{
-  background: white;
+  color:#ffffff !important;
 }
 
 .wrapper-contact{
@@ -280,7 +282,7 @@ button{
 
 .redes:hover{
   filter: none;
-  width: 5rem;
+  width: 4rem;
 }
 
 .iconos{
