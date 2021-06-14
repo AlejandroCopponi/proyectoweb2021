@@ -150,9 +150,16 @@
 
     <section  class="wrapper-contact" id="presupuesto">
         <h2>Trabajaremos para ajustarnos a tus posibilidades</h2>
+<<<<<<< HEAD:index.php
         <div class="container contenedor-campos">
             <div class="row>
                 <div class="campos">
+=======
+        <div class="container campos">
+            <div class="row">
+                
+                <div>
+>>>>>>> 8b5bad04254f26efa5256c4e6fe9ebc0e171750c:index.html
                     <form>
                         <!-- Nombres input -->
                         <div class="form-outline mb-4">
