@@ -149,6 +149,20 @@ h3{
   h2 {
     font-size: 3em;
   }
+  .contenedor-campos{
+    width: 70%;
+  }
+} 
+@media screen and (min-width: 1400px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 3em;
+  }
+  .contenedor-campos{
+    width: 50%;
+  }
 } 
 
 
@@ -250,12 +264,9 @@ button{
 /*<<<<<<<<<<  formulario presupuesto >>>>>>>>>>>*/
 
 
-
-.contenedor-campos{
-  width: 50%;
-}
-
 /* <<<<<<<<<<<<<<<<< estilos para form contactos >>>>>>>>>>>>>>>*/
+
+
 
 .form-label{
   color:#ffffff !important;
@@ -265,9 +276,8 @@ button{
   height: 100%;
   width: 100%;
   background: rgb(3, 0, 0);
-  padding: 3em;
+  padding: 1em;
   text-align: center;
-  padding-bottom: 3rem;
 }
 
 
@@ -288,6 +298,79 @@ button{
 .iconos{
   display: flex;
   justify-content:space-around;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 
+/*estilos de la galeria*/
+
+:root {
+  --main-white-color: white;
+  --main-black-color: black;
+}
+ 
+.static {
+  position: static; 
+}
+ 
+.cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.owl-carousel .owl-slide {
+  position: relative;
+  height: 100vh;
+  background-color: lightgray;
+}
+ 
+.owl-carousel .owl-slide-animated {
+  transform: translateX(20px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.05s;
+}
+ 
+.owl-carousel .owl-slide-animated.is-transitioned {
+  transform: none;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s;
+}
+ 
+.owl-carousel .owl-slide-title.is-transitioned {
+  transition-delay: 0.2s;
+}
+ 
+.owl-carousel .owl-slide-subtitle.is-transitioned {
+  transition-delay: 0.35s;
+}
+ 
+.owl-carousel .owl-slide-cta.is-transitioned {
+  transition-delay: 0.5s;
+}
+
+.owl-carousel .owl-dots,
+.owl-carousel .owl-nav {
+  position: absolute;
+}
+ 
+.owl-carousel .owl-dots .owl-dot span {
+  background: transparent;
+  border: 1px solid var(--main-black-color);
+  transition: all 0.2s ease;
+}
+ 
+.owl-carousel .owl-dots .owl-dot:hover span,
+.owl-carousel .owl-dots .owl-dot.active span {
+  background: var(--main-black-color);
+}
+ 
+.owl-carousel .owl-nav {
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  margin: 0;
+}
